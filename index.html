@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+<body id="bodyColor">
+
+<div class="container">
+    <div class="title">
+        <h2>jasvaScript Learng </h2>
+    </div>
+
+
+    <!-- Practise Paribus-->
+
+    <div class="header">
+        <h2 id="demo" onclick="document.getElementById('bodyColor1').style.color = '#fff'">Heading title </h2>
+        <h4 class="block" id="fontStyle" onclick="document.getElementById('bodyColor2').style.color = '#000'">if you click the 'Decrise font size' button you will show the Incress And Decriess Font Size </h4>
+    </div>
+
+    <!-- Change The Attriabute -->
+    <button class="btn" onclick="document.getElementById('myId').src='img/imageon.jpg'">Click And Show Change Image</button>
+    <button class="btn" onclick="document.getElementById('myId').src='img/imageoff.jpg'">Another Click And Show Image</button>
+
+    <img src="img/onimage.jpg" id="myId" alt="Deffolt Image">
+
+<br>
+<br>
+
+    <!-- button change Collor  -->
+    <a href="#" id="bodyColor1" onclick="document.getElementById('bodyColor').style.background = '#000000'" class="link">Click The Button and Show The Body Color "Dark"</a>
+    <button class="btn" id="bodyColor2" onclick="document.getElementById('bodyColor').style.background = '#fff'">Click The Button And Show The Body Color "White"</button>
+
+    <br><br>
+
+    <button class="btn" onclick="document.getElementById('fontStyle').style.fontSize = '10px'">Decriss Font Size on the Header top</button>
+
+    <br>
+    <br>
+
+    <button class="btn" onclick="window.print()">Click And Show The Print</button>
+</div>
+
+
+
+<script src="js/javascript.js"></script>
+</body>
+</html>
