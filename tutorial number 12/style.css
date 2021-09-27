@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapperss {
+  width: 960px;
+  margin: auto;
+}
+.wrapperss .header-title {
+  text-align: center;
+}
+.wrapperss .title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
