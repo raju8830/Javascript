@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.wrapper, .try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #E63B34;
+}
+.main, .device-screen{
+    width: 700px;
+    height: 400px;
+    border: 50px solid #222222;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BEE2EA;
+    position: relative;
+}
+.main::after, .device-screen::after {
+    position: absolute;
+    content: "";
+    right: -40px;
+    top: 42%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #404040;
+    background: transparent;
+    border-radius: 50%;
+}
+.box, #hitarea{
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
